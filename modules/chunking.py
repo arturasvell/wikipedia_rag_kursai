@@ -13,5 +13,4 @@ def get_chunks_of_text(text:str):
 
     chunks = splitter.split_documents(documents=[document])
 
-    print(len(chunks))
     return chunks
