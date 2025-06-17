@@ -1,7 +1,5 @@
-from xml.dom.minidom import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
-from sympy import content
 
 
 def get_chunks_of_text(text:str):
